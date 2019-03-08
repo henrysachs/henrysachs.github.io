@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -21,29 +21,43 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 3
   exclude:
     forks: true
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
-  # twitter: your_username
+  facebook: henry.sachsschmitgen
+  linkedin: henry-sachs
+  medium: "@henrysachs"
+  stackoverflow: 6813369
+  twitter: Henry_Astro
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+  - name: Angular
+    web_url: https://angular.io/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png
+
+  - name: Flutter
+    web_url: https://flutter.dev/
+    image_url: http://richdale.de/wp-content/uploads/2018/05/flutter-logo-small.png
+
+  - name: TypeScript
+    web_url: https://www.typescriptlang.org/
+    image_url: https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png
+
+  - name: Kubernetes
+    web_url: https://kubernetes.io/
+    image_url: https://avatars1.githubusercontent.com/u/13629408?s=400&v=4
+
+  - name: Cloud Computing
+    web_url: https://cdn-images-1.medium.com/max/800/1*el4nHcOQdfHxzzcTC99jDw.png
+    image_url: data:image/png;base64,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
